@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+}
+
+html{
+    background-color: #B3A289;
+    font-size: 16px;
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    width: 640px;
+    margin: auto;
+}
+
+h1{
+    font-size: 48px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    
+}
+
+p{
+    font-size: 1.5rem;
+}
