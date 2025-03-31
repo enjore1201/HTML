@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1회차 과제</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    
+    <link href="user.css" rel="stylesheet">
+    <style>
+            
+    </style>
+</head>
+<body>
+    <h1 id="name"></h1>
+    <p id="animals"></p>
+    <p id="fruits"></p>
+
+    <script>
+        const nameElement = document.querySelector('#name')
+        let name = prompt('당신의 이름?')
+        nameElement.textContent = name
+
+        const animalsElement = document.querySelector('#animals')
+        let animals = prompt('좋아하는 동물은?')
+        animalsElement.textContent = `좋아하는 동물은 ${animals} 입니다`
+    
+        document.querySelector('#fruits')
+        .textContent =`좋아하는 과일은 ${prompt('좋아하는 과일')}입니다`
+    </script>
+</body>
+</html>
